@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+h1{
+    color: rgb(214, 121, 121);
+    font-family: "copperlate", fantasy;
+    text-align: center;
+}
+a, A:visited, a:active {color: #14AE21;}
+a:hover {color: #1CB23F;}
+
+a {
+    font-family: "Avenir Next Condensed";
+}
+p{
+    color: rgb(255, 94, 0);
+    font-family: "monaco", monospace;
+    text-align: center;
+}
+
+li{
+    color: #ff9b9b;
+    font-family: "monaco", monospace;
+    text-align: center;
+}
+
+h2{
+    color: aquamarine;
+    font-family: "American Typewriter";
+    text-align: center;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+a{
+    display: block;
+    text-align: center;
+    color:rgb(255, 94, 0)
+}
+
+a:link{
+    color:orangered;
+}
+
+a:visited{
+    color: rgb(179, 45, 0);
+}
+
+a:hover{
+    color: rgb(179, 45, 0);
+}
+
+a:active{
+    color: red;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(32, 32, 32);
+    height: 50px;
+    font-family: monospace;
+    color: rgb(32, 32, 32);
+}
+
+nav ul{
+    height: 50px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    border-right: 1px solid rgb(32, 32, 32);
+    text-align: center;
+
+}
+
+li a{
+    text-decoration: none;
+    color: orangered;
+    line-height: 50px;
+    display: block;
+}
+
+li a:hover{
+    background-color: rgb(26, 22, 22);
+}
